@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #193bd2;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: 800    ;
+}
+
+.link-btn {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-size: 0.8em;
+    padding: 0px;
+  }
+
+  .white-icon {
+    color: white;
+}
