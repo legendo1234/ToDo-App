@@ -10,14 +10,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
 
 
-
-
 import { AppComponent } from './app.component';
+import { CardComponent } from './card.component';
+import { LayoutModule } from '@angular/cdk/layout';
+import { MatListModule } from '@angular/material/list';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-  ],
+    CardComponent,],
+
   imports: [
     BrowserModule,
     FlexLayoutModule,
@@ -28,6 +31,9 @@ import { AppComponent } from './app.component';
     CommonModule,
     BrowserAnimationsModule,
     MatCardModule,
+    LayoutModule,
+    MatListModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
